@@ -126,6 +126,9 @@ ifeq ($(static),yes)
 	endif
 endif
 
+target_os = linux
+license_id = linux
+
 ifeq ($(profile),yes)
 	optional_cxxflags += -ggdb
 	optional_cxxflags += -O3
